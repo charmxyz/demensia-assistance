@@ -8,8 +8,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Dementia Risk Calculator",
+  title: "Alzheimer's Disease Risk Calculator",
   description: "A tool to help clinicians assess whether a dementia test is recommended",
+  icons: {
+    icon: '/logo.png',
+  },
 };
 
 export default function RootLayout({
